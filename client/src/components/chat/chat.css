@@ -1,0 +1,137 @@
+/* Chat containers */
+.container {
+  border: 2px solid #dedede;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+/* Darker chat container */
+.darker {
+  border-color: #ccc;
+  background-color: #ddd;
+}
+
+/* Clear floats */
+.container::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Style images */
+.container img {
+  float: left;
+  max-width: 60px;
+  width: 100%;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+/* Style the right image */
+.container img.right {
+  float: right;
+  margin-left: 20px;
+  margin-right:0;
+}
+
+/* Style time text */
+.time-right {
+  float: right;
+  color: #aaa;
+}
+
+/* Style time text */
+.time-left {
+  float: left;
+  color: #999;
+}
+
+
+/* Split the screen in half */
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+/* Control the left side */
+.left {
+  left: 0;
+  background-color: #111;
+}
+
+/* Control the right side */
+.right {
+  right: 0;
+  background-color: white;
+}
+
+/* If you want the content centered horizontally and vertically */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* Style the image inside the centered container, if needed */
+.centered img {
+  width: 150px;
+  border-radius: 50%;
+}
+
+button{
+background-color: #111;
+border: none;
+color: white;
+padding: 15px 32px;
+text-align: center;
+display: inline-block;
+font-size: 16px;
+
+}
+input{
+  width: 70%;
+  padding: 15px 32px;
+  margin: 8px;
+  border:none ;
+  border-width: 0px;
+  box-shadow: none;
+
+
+}
+
+input:focus{outline: none;}
+
+.message {
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+
+
+.selectedUserId {
+  background-color: black;
+  padding: 10px;
+  margin: 10px 0;
+  color:white;
+  margin-right: 50px;
+
+}
+
+.myuser {
+  background-color: #f1f1f1;
+  padding: 10px;
+  margin: 10px 0;
+  margin-left: 50px;
+  margin-right: 10px;
+
+}
