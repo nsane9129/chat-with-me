@@ -1,4 +1,3 @@
-# 🔥 mern-auth-template-tutorial 🔥
+# 🔥CHAT APP IN MERN 🔥
 
-Hey devs! This is the source code for my completed MERN stack authentication youtube tutorial: https://www.youtube.com/playlist?list=PLJM1tXwlGdaf57oUx0rIqSW668Rpo_7oU
 
